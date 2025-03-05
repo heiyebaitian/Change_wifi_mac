@@ -21,7 +21,6 @@ uint8_t newMACAddress[] = {0x32, 0xAE, 0xA4, 0x07, 0x0D, 0x66}; //您需要设�
 
 
 void setup() {
-
   Serial.begin(115200); //  初始化串口
   Serial.println();
   Serial.println("程序运行");
@@ -34,12 +33,6 @@ void setup() {
   }
   Serial.print("[OLD] ESP32 Board MAC Address:  ");
   Serial.println(WiFi.macAddress());
-  
-
-
-
-  
-
   
   Serial.print("[NEW] ESP32 Board MAC Address:  ");
   Serial.println(WiFi.macAddress());
